@@ -1,6 +1,7 @@
 html {
     background-color: #ccc;
     box-sizing: border-box;
+    font-family: ”Roboto”, sans-serif; 
 }
 
 *, *:before, *:after {
@@ -9,17 +10,31 @@ html {
 
 main {
     border: 2px black solid;
-    padding: 10px;                      
+    padding: 10px;    
+    max-width: 50rem;   
+    border-radius: 10px;               
 }
 
 header {
     text-align: center;
+    background-color:rgb(159, 226, 245); 
+    padding-top: 5px; 
+    
 }
 
 article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flow-root; 
 }
 
 article img {
+    max-width: 15rem;
+    float: left; 
+    border: 10px solid rgb(185, 150, 245); 
+    border-radius: 5px; 
+    margin-right: 12px;
+
 }
 
 footer {
@@ -31,6 +46,7 @@ footer {
     flex-order: row;
     justify-content: space-evenly;
     align-items: center;
+    background-color:rgb(159, 226, 245); 
 }
 
 button {
@@ -40,3 +56,4 @@ button {
 .button {
     
 }
+
