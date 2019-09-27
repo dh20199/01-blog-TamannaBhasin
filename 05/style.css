@@ -1,27 +1,46 @@
+
 article {
-    background:  rgba(115, 192, 240, 0.863);
+    background:  rgba(201, 224, 238, 0.863);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;  
+   
 }
 
 header {
-    background:  rgba(245, 139, 234, 0.863);
+    background:  rgba(184, 174, 174, 0.551);
+    align-items: stretch;
 }
 
 section.main {
     margin-left: 10px;
     margin-right: 10px;
+    font-family: "Goudy Old Style", serif;          
+    align-items: center;
+    
 }
 
 section.sources {
     margin-left: 10px;
     margin-right: 10px;
+    background:  rgba(184, 174, 174, 0.551);
 }
 
 article img {
-    max-width: 15rem;
+    max-width: 100rem;
     float: left; 
-    border: 10px solid rgba(115, 192, 240, 0.863); 
-    border-radius: 5px; 
-    margin-right: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
 }
+
+h1 {
+    font-weight: bold;
+    font-family: "Engravers MT", serif; 
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 24px;
+  }
